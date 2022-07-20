@@ -19,11 +19,12 @@ export default function Homescreen() {
         <Slidebar/>
 
       <Routes>
-      <Route path="/" element={<Library/>} />
       <Route path="/feed" element={<Feed/>} />
+      <Route path="/library" element={<Library/>} />
+      
       <Route path="/favorite" element={<Favorite/>} />
       <Route path="/player" element={<Player/>} />
-      <Route path="trending" element={<Trending />} />
+      <Route path="/trending" element={<Trending />} />
 
 
     </Routes>
